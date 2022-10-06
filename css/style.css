@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+}
+
+h1 {
+    margin-left: 825px;
+}
+
+.contact {
+    margin-left: 795px;
+    text-align: right;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    padding: 20px;
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: underline;
+}
+
+.row {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.row1 {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    float: left;
+}
+
+.secondBlock {
+    background-color: white;
+    padding: 20px 75px;
+}
+
+.fifthBlock {
+    background-color: white;
+    padding: 20px 75px;
+    text-align: left;
+}
+
+.row2 {
+    display: flex;
+    float: right;
+}
+
+.sixthBlock {
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    padding: 20px 75px;
+    margin-right: -728px;
+    text-align: right;
+}
+
+.y {
+    background-color: white;
+    width: 154px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 100px;
+    /*padding: 20px;*/
+    text-align: left;
+}
+
+.thirdBlock {
+    background-color: white;
+    float: left;
+    width: 36em;
+    height: 150px;
+    margin: 0 0 0 0;
+    padding: 20px 75px;
+    text-align: center;
+}
+
+.fourthBlock {
+    background-color: white;
+    float: right;
+    width: 210px;
+    padding: 20px 75px;
+    text-align: right;
+}
+
+.row3 {
+    display: flex;
+    float: left;
+}
+
+.about {
+    margin-top: 310px;
+    margin-left: 185px;
+}
+
+.support {
+    margin-left: 50px;
+    list-style-type:square;
+}
+
+.support a {
+    color: black;
+}
+
+
+.news {
+    margin-left: 60px;
+}
